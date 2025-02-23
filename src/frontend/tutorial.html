@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Tutorial - Learning Game</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="bi bi-database"></i> MySQL Learning Game</a>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="/tutorials"><i class="bi bi-book"></i> Tutorials</a>
+                <a class="nav-link" href="/levels"><i class="bi bi-ladder"></i> Levels</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div id="error-message"></div>
+        <div id="tutorial-content" class="mb-4">
+            <!-- Tutorial content will be loaded dynamically -->
+        </div>
+        <div id="query-result"></div>
+        
+        <div class="tutorial-navigation mt-4 d-flex justify-content-between">
+            <a href="#" id="prev-tutorial" class="btn btn-secondary disabled">
+                <i class="bi bi-arrow-left"></i> Previous
+            </a>
+            <div class="tutorial-progress text-center">
+                <span id="tutorial-number"></span>
+            </div>
+            <a href="#" id="next-tutorial" class="btn btn-primary">
+                Next <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <script type="module" src="/js/tutorial.js" crossorigin="anonymous"></script>
+</body>
+</html>

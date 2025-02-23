@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Learning Game - Levels</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="bi bi-database"></i> MySQL Learning Game</a>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link" href="/tutorials"><i class="bi bi-book"></i> Tutorial</a>
+                <a class="nav-link active" href="/levels"><i class="bi bi-ladder"></i> Levels</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="mb-4">Choose a Level</h2>
+        <div id="levels-container" class="row">
+            <!-- Levels will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <script type="module" src="js/levels.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* This file contains the styles for the frontend of the game, utilizing Bootstrap CSS and custom styles. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+
+.query-result {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.query-result table {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.query-result th {
+    background-color: #e9ecef;
+}
+
+.table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
